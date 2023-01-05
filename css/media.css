@@ -1,0 +1,99 @@
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+    .panel {
+        grid-template-columns: repeat(2, 360px);
+    }
+
+    #h1 {
+        color: #ffffff;
+        font-size: 86px;
+        padding-top: 129px;
+    }
+
+    .excursion_grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px 0px;
+    }
+
+    .photo {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .panel {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #h1 {
+        color: #ffffff;
+        font-size: 66px;
+        padding-top: 90px;
+    }
+
+    .nav {
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .nav a {
+        font-size: 0px;
+        border: 3px solid #ffffff;
+        color: #ffffff;
+        width: 40px;
+        border-radius: 3px;
+        background: #ffffff;
+    }
+
+    .excursion_grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px 0px;
+    }
+
+    .photo {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,1fr);
+        gap: 10px;
+    }
+
+    .galery-item:nth-child(1) {
+        display: none;
+    }
+
+    .galery-item:nth-child(5) {
+        display: none;
+    }
+
+    .galery-item:nth-child(6) {
+        display: none;
+    }
+
+    .galery-item:nth-child(7) {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #h1 {
+        color: #ffffff;
+        font-size: 46px;
+        padding-top: 129px;
+    }
+
+    .about_box p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .photo {
+        gap: 5px;
+    }
+}
