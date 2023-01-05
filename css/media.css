@@ -96,4 +96,8 @@
     .photo {
         gap: 5px;
     }
+
+    .about_box {
+        padding: 20px 20px;
+    }
 }
